@@ -1,0 +1,14 @@
+.Formic{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.Formic form{
+    display: flex;
+    flex-direction: column;
+}
+.Error{
+    color: brown;
+    font-weight: bold;
+
+}

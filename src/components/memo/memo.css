@@ -1,0 +1,27 @@
+.Memo{
+background-color: antiquewhite;
+}
+
+.Memo .Inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Memo .Inputs input{
+    margin: 5px;
+}
+
+pre{
+    background-color:white;
+    border: 1px solid lightgray;
+    position: relative;
+    text-align: left;
+}
+.Memo b{
+    padding: 5px 10px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 15px;
+}

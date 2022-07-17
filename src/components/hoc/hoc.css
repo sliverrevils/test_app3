@@ -1,0 +1,12 @@
+.Hoc{
+    background-color: whitesmoke;
+}
+
+.Hoc h4{
+    color:rgb(158, 15, 63);
+    font-style: italic;
+    outline: 1px solid green;
+}
+.Hoc h4::after{
+    content: '👇';
+}

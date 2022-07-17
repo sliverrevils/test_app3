@@ -1,0 +1,20 @@
+.HTTP{
+    background-color:cornsilk;
+}
+.HTTP h3:hover{
+    cursor: url("https://toppng.com/uploads/preview/cursor-11549398080fd7y2r6evj.png"), auto;
+    background-color:black;
+    color:white;
+}
+
+.Info{
+width: 250px;
+}
+
+.Info img{
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    
+}
+

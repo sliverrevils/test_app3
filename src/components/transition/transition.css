@@ -1,0 +1,29 @@
+.item-enter {
+    opacity: 1;
+    
+  }
+  .item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+   
+  }
+  .item-exit {
+    opacity: 1;
+    transform: scale(10%);
+  }
+  .item-exit-active {
+    transform: scale(200%);
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+    animation: out-in 5000 linear;
+  }
+  
+  @keyframes out-in {
+   from{
+     transform: scale(10%);
+
+   }to{
+     transform: scale(100%);
+
+   }
+  }
